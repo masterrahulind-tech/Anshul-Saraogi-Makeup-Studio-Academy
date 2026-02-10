@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #61525a;
+  --accent: #fad24b;
+  --bg-main: #fdfbf9;
+}
+
+body {
+  @apply bg-[#fdfbf9] text-[#1e1919];
+}
+
+h1, h2, h3, h4, .font-playfair {
+  @apply font-serif;
+}
